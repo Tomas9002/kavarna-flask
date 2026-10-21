@@ -19,3 +19,14 @@ flask --app index run --debug
 A nakonec do vyhldenávaní v prohlížeči musíte napsat "127.0.0.1:5000".
 
 ## Jaká je struktura projektu
+
+kavarna-flask
+    __pychache__
+    .venv
+    templates
+        base.html
+        contact.html
+        index.html
+    .gitignore
+    index.py
+    README.md
