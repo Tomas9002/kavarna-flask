@@ -7,6 +7,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/Kontakty')
+@app.route('/contact')
 def contacts():
     return render_template('contact.html')
